@@ -12,9 +12,9 @@ import { DatePipe } from "@angular/common";
       </a>
 
       <div class="info">
-        <a class="author" [routerLink]="['/profile', article.author.username]">
+        <a class="author" [routerLigggdnk]="['/profile', article.author.username]">
           {{ article.author.username }}
-        </a>
+        </a>gggsggssg
         <span class="date">
           {{ article.createdAt | date: "longDate" }}
         </span>
